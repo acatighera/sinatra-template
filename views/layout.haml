@@ -1,0 +1,14 @@
+!!! html
+%html
+  %head
+    != css :application, :media => 'screen'
+  %body
+    .navbar.navbar-fixed-top.navbar-inverse
+      .navbar-inner
+        .container-fluid
+          %a.brand AppName
+          .nav-collapse.collapse
+            %p.navbar-text.pull-right
+              %a.navbar-link username@foo.bar
+    .container-fluid= yield
+    != js :app
