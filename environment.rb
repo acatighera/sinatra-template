@@ -1,5 +1,3 @@
-require './bootstrap'
-
 class AppName < Sinatra::Base
   configure :development do
     register Sinatra::Reloader
