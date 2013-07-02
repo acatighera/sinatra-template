@@ -1,4 +1,6 @@
-require './app'
+require './bootstrap'
+require './environment'
+require './loader'
 require 'fileutils'
 
 namespace :db do
