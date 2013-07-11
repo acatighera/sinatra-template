@@ -1,4 +1,4 @@
 require './bootstrap'
-require './environment'
+require './app'
 require './loader'
 run AppName
